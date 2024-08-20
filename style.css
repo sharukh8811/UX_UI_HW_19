@@ -368,31 +368,36 @@ body {
 }
 
 
-/* Footer styling */
+/* Enhanced Footer Styling */
 .footer {
-    background-color: #000;
+    background-color: #111; /* Darker background for contrast */
     color: white;
-    text-align: left;
-    padding: 1rem;
-    position: fixed;
+    text-align: center; /* Center the text */
+    padding: 2rem 1rem; /* Larger padding for a more spacious feel */
+    position: relative; /* Changed from fixed to relative for a full-width footer without overlapping content */
     width: 100%;
     bottom: 0;
-    left: 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
 }
 
 .footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem; /* Slightly larger font size for readability */
+    font-weight: 300; /* Light font weight for a modern look */
 }
 
 .footer a {
-    color: white;
+    color: #3379d4; /* Accent color for links */
     text-decoration: none;
+    font-weight: 500; /* Slightly bolder links */
+    transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
 .footer a:hover {
+    color: #ffffff; /* Change link color on hover */
     text-decoration: underline;
 }
+
 
 .animation {
 background: #000000; 

@@ -26,3 +26,17 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    $('#myButton').on('click', function() {
+        console.log("Button was clicked!");
+        // Add your UI interaction here
+        $(this).text("You clicked me!"); // Example of a simple UI change
+    });
+});
+$(document).ready(function() {
+    $(window).on('scroll', function() {
+        console.log("User scrolled!");
+        $('#myDiv').css('opacity', 0.5); // Example UI interaction: change opacity
+    });
+});
